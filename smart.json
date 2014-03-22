@@ -1,0 +1,8 @@
+{
+  "name": "braintree",
+  "description": "Exposes BrainTree's Payment Gateway Interface.",
+  "homepage": "https://github.com/usefulio/meteor-braintree",
+  "author": "Ian Serlin (https://github.com/usefulio)",
+  "version": "0.1.0",
+  "git": "https://github.com/usefulio/meteor-braintree.git"
+}
