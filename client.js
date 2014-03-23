@@ -1,6 +1,6 @@
+Session.set('braintreeLoaded', false);
+
 Meteor.startup(function(){
-	Session.set('braintreeLoaded', false);
-	
 	//Functions to run after the script tag has loaded
 	var braintreeLoadCallback = function(){
 		Session.set('braintreeLoaded', true);
