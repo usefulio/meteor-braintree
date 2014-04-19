@@ -11,6 +11,7 @@ function wrapAsync(gateway){
 	gateway.customer.update = Meteor._wrapAsync(gateway.customer.update);
 	
 	gateway.creditCard.create = Meteor._wrapAsync(gateway.creditCard.create);
+	gateway.creditCard.delete = Meteor._wrapAsync(gateway.creditCard.delete);
 
 	gateway.transaction.sale = Meteor._wrapAsync(gateway.transaction.sale);
 	// _.chain(gateway)
